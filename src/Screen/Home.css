@@ -7,13 +7,13 @@
     flex-direction: column;
     justify-content: center;
     gap: 5%;
-    background-color: white; /* Default background color */
-    color: black; /* Default text color */
+    background-color: white;
+    color: black; 
     padding: 20px;
 }
 
 .homeContent.darkmode {
-    background-color: black; /* Background color in dark mode */
+    background-color: black; 
     color: white;
 }
 
@@ -22,14 +22,14 @@
     height: 100px;
     border: 2px solid black;
     margin-top: 3%;
-    background-color: white; /* Default background color */
-    color: black; /* Default text color */
+    background-color: white; 
+    color: black; 
     padding: 10px;
 }
 
 .preview.darkmode {
-    background-color: black; /* Background color in dark mode */
-    color: white; /* Text color in dark mode */
+    background-color: black; 
+    color: white;
 }
 
 button {
@@ -43,6 +43,6 @@ button {
 }
 
 button.darkmode {
-    background-color: #333; /* Adjusted background color for dark mode */
-    color: white; /* Adjusted text color for dark mode */
+    background-color: #333; 
+    color: white; 
 }

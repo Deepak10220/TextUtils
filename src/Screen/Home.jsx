@@ -13,9 +13,9 @@ const reducer = (state, action) => {
         case "clear":
             return { ...state, text: "" };
         case "removeExtra":
-            return { ...state, text: state.text.replace(/\s+/g, ' ').trim() }; // Regex to replace multiple spaces with single space
+            return { ...state, text: state.text.replace(/\s+/g, ' ').trim() }; 
         case "copy":
-            // Dynamically create a textarea and copy text to clipboard
+
             const textarea = document.createElement('textarea');
             textarea.value = state.text;
             document.body.appendChild(textarea);
@@ -38,7 +38,7 @@ const Home = () => {
 
     const [state, dispatch] = useReducer(reducer, initialState);
 
-    // Add darkmode class to homeContent based on state
+
     const homeContentClass = state.darkmode ? "homeContent darkmode" : "homeContent";
 
     return (
